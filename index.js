@@ -12,9 +12,9 @@ function mondayWork(activity = 'go to the office'){
    return `This Monday, I will ${activity}.`
 }
 
-function wrapAdjective (or){
+function wrapAdjective (arterisk){
   return function(value="special"){
-   return `You are ${or}${value}${or}!`
+   return `You are ${arterisk}${value}${arterisk}!`
  } 
 
 }
